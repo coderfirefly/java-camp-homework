@@ -1,1 +1,1 @@
-# java-camp-homework
+# java-camp-study
