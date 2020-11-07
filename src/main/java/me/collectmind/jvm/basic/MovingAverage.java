@@ -1,4 +1,4 @@
-package me.collectmind.jvm;
+package me.collectmind.jvm.basic;
 
 /**
  * 四则运算的字节码例子

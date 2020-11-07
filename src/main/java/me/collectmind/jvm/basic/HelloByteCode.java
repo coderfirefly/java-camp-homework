@@ -1,4 +1,4 @@
-package me.collectmind.jvm;
+package me.collectmind.jvm.basic;
 
 /**
  * 字节码例子
@@ -11,10 +11,10 @@ public class HelloByteCode {
 }
 
 /* *************************************************************************
-➜  javap -c me.collectmind.jvm.HelloByteCode
+➜  javap -c me.collectmind.jvm.basic.HelloByteCode
 Compiled from "HelloByteCode.java"
-public class me.collectmind.jvm.HelloByteCode {
-  public me.collectmind.jvm.HelloByteCode();
+public class me.collectmind.jvm.basic.HelloByteCode {
+  public me.collectmind.jvm.basic.HelloByteCode();
     Code:
        0: aload_0
        1: invokespecial #1                  // Method java/lang/Object."<init>":()V
@@ -32,12 +32,12 @@ public class me.collectmind.jvm.HelloByteCode {
 
 
 /* *************************************************************************
-➜  javap -c -verbose me.collectmind.jvm.HelloByteCode
+➜  javap -c -verbose me.collectmind.jvm.basic.HelloByteCode
 Classfile /xxx/src/main/java/me/collectmind/jvm/HelloByteCode.class
   Last modified Oct 18, 2020; size 307 bytes
   MD5 checksum 372aa94e71f3bb3d6c73d8ff2e2035a2
   Compiled from "HelloByteCode.java"
-public class me.collectmind.jvm.HelloByteCode
+public class me.collectmind.jvm.basic.HelloByteCode
   minor version: 0
   major version: 52 ==> Jdk8版本号
   flags: ACC_PUBLIC, ACC_SUPER
@@ -58,7 +58,7 @@ Constant pool: ==> 常量池
   #14 = Utf8               me/collectmind/jvm/HelloByteCode
   #15 = Utf8               java/lang/Object
 {
-  public me.collectmind.jvm.HelloByteCode();
+  public me.collectmind.jvm.basic.HelloByteCode();
     descriptor: ()V
     flags: ACC_PUBLIC
     Code:

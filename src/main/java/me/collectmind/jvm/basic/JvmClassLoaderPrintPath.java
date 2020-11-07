@@ -1,4 +1,4 @@
-package me.collectmind.jvm;
+package me.collectmind.jvm.basic;
 
 import java.lang.reflect.Field;
 import java.net.URL;

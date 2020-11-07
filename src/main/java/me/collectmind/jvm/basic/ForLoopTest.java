@@ -1,4 +1,4 @@
-package me.collectmind.jvm;
+package me.collectmind.jvm.basic;
 
 /**
  * 循环控制的字节码测试

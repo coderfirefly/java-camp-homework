@@ -1,8 +1,6 @@
-package me.collectmind.jvm;
+package me.collectmind.jvm.basic;
 
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.Base64;
 
 /**
