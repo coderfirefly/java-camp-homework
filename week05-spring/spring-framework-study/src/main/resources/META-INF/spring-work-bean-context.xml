@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <!--通过 XML 装配一个Bean，使用 Setter 注入-->
+    <bean id="user" class="me.collectmind.java.camp.spring.framework.study.work.thursday.bean.domain.User">
+        <property name="name" value="monica"/>
+        <property name="age" value="18"/>
+    </bean>
+
+</beans>

@@ -6,7 +6,17 @@
 
     <groupId>me.collectmind</groupId>
     <artifactId>java-camp-homework</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>week01-jvm</module>
+        <module>week03-netty</module>
+        <module>week04-concurrent</module>
+        <module>week06-java-practice</module>
+        <module>week09-rpc</module>
+        <module>week09-rpc</module>
+    </modules>
 
     <build>
         <plugins>
@@ -45,7 +55,7 @@
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
-            <version>3.10.0</version>
+            <version>3.12.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
