@@ -11,6 +11,7 @@
     + 尝试使用 Netty+HTTP 作为 client 端传输方式。
  
  [服务端查找实现类使用泛型和反射 see RpcfxInvoker.java](./rpcfx/rpcfx-core/src/main/java/me/collectmind/rpcfx/core/server/RpcfxInvoker.java) 
+ 
  [客户端代理层改用AOP see ClientProxyStrategyCGLib.java](./rpcfx/rpcfx-core/src/main/java/me/collectmind/rpcfx/core/client/proxy/impl/ClientProxyStrategyCGLib.java)
 
  
